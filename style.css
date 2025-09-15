@@ -81,18 +81,19 @@ section{
     padding: 160px 15% 120px;
 }
 
-.home{
+.home {
     position: relative;
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
-                    url("/assets/84248.png");
+                      url("assets/84248.png");
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
+
 
 
 
@@ -144,8 +145,8 @@ header.sticky{
     gap: 1.5rem;
 }
 
-.A-img {
-    max-width: 450px;
+.A-img img{
+    max-width: 350px;
     height: auto;
     width: 100%;
     border-radius: 8px;
